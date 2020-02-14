@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>PowerLinks</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+     <div class="container">
+       <a class="navbar-brand mr-auto mr-lg-0" href="{{ path('root') }}">Power links</a>
+       <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+         <ul class="navbar-nav mr-auto">
+         </ul>
+         <ul class="navbar-nav my-2 my-lg-0">
+           <li class="nav-item"><a href="" class="nav-link btn btn-outline-success">Se connecter</a></li>
+           <li class="nav-item"><a href="" class="nav-link">Créer un compte</a></li>
+         </ul>
+       </div>
+     </div>
+    </nav>
+
+    <div id="root"></div>
+  </body>
+</html>
